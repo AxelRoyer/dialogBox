@@ -17,17 +17,17 @@
     -webkit-transition: 0.3s;
 }
 
-#dialogBox .modal-header,
-#dialogBox .modal-body,
-#dialogBox .modal-footer{
+#dialogBox > .modal-header,
+#dialogBox > .modal-body,
+#dialogBox > .modal-footer{
     width: 80%;
     max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-#dialogBox .modal-header{
-    margin-top: 2rem;
+#dialogBox > .modal-header{
+    margin-top: 4rem;
     border-bottom: 1px solid green;
     height: 1.5rem;
     text-align: center;
@@ -36,13 +36,13 @@
     background-color: white;
 }
 
-#dialogBox .modal-body{
+#dialogBox > .modal-body{
     overflow: auto;
     background-color: white;
-    max-height: 75%;
+    max-height: 65%;
 }
 
-#dialogBox .modal-footer{
+#dialogBox > .modal-footer{
     display: table;
     table-layout: fixed;
     background-color: green;
@@ -51,14 +51,14 @@
     color: white;
 }
 
-#dialogBox .modal-footer td{
+#dialogBox > .modal-footer td{
     border:none;
     background-color: inherit;
     cursor: pointer;
     line-height: 1.5rem
 }
 
-#dialogBox .modal-footer td:hover{
+#dialogBox > .modal-footer > td:hover {
     background-color: darkgreen;
 }
 
@@ -79,7 +79,7 @@ input[type="text"]{
 
 #infoBox{
     position: fixed;
-    top: 0;
+    top: 8rem;
     bottom: 0;
     left:0;
     right: 0;
@@ -96,44 +96,44 @@ input[type="text"]{
 }
 
 
-#infoBox .green,
-#infoBox .orange,
-#infoBox .red {
+#infoBox > .green,
+#infoBox > .orange,
+#infoBox > .red {
     display: inline-block;
     padding: 0.5rem 0rem 0.5rem 1rem;
 }
 
-#infoBox .green {
+#infoBox > .green {
     background-color: #00CC33;
 }
 
-#infoBox .orange {
+#infoBox > .orange {
     background-color: #FF6600;
 }
 
-#infoBox .red {
+#infoBox > .red {
     background-color: #CC0033;
     color: white;
 }
 
-#dialogBox .modal-body .li{
+#dialogBox > .modal-body > .li{
     line-height: 2rem;
     padding-left: 1rem;
     position: relative;
     display: block;
 }
 
-#dialogBox .modal-body .li input{
+#dialogBox > .modal-body > .li > input{
     position: absolute;
     right: 1rem;
     top: 0.4rem;
 }
 
-#dialogBox .modal-body .li:hover{
+#dialogBox > .modal-body > .li:hover{
     background-color: silver;
     cursor: pointer;
 }
 
-#dialogBox .modal-body .li + .li{
+#dialogBox > .modal-body > .li + .li{
     border-top: 1px solid silver;
 }

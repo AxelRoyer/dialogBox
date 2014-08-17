@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+body > p {
+    text-align: left;
+}
+
+h1, h2, h3, h4{
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 1rem;
+}
+
+table{
+    margin: 0 auto;
+}
+
+button{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.commentText {
+    color: silver;
+}
+
+pre {
+    background-color: whitesmoke;
+    border: 1px solid silver;
+    padding: 1rem;
+    width:80%;
+    margin: 0 auto;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
